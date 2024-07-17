@@ -22,6 +22,20 @@ Logistic Regression is a linear classification algorithm well-suited for binary 
 
 By analyzing the features of a new patient, the trained Logistic Regression model can estimate the probability of that patient having diabetes. By setting a threshold on this probability, we can classify the patient as diabetic or non-diabetic.
 
+## 4. Model Evaluation:
+
+Evaluation metrics: Calculate appropriate metrics (e.g., accuracy, precision, recall, F1-score, AUC-ROC) on the held-out validation or test set to assess model performance
+
+## 5. Streamlit User Interface:
+
+Import Streamlit: Include the streamlit library for building the web interface.
+
+Develop the UI: Create a user-friendly interface with interactive elements.
+
+Predict on user input:
+
+When the user submits data, use the trained model to predict the probability of diabetes for the provided patient information. Display the prediction outcome within the interface.
+
 ## 4. Conclusion:
    
 This project combines SMOTE for class balancing, GridSearchCV for hyperparameter tuning, and Logistic Regression for model building to achieve a robust and accurate prediction of diabetes. This approach can be further enhanced by exploring other classification algorithms and evaluating different performance metrics.
